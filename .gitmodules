@@ -60,13 +60,6 @@
 	branch = master
 	status = essential
 	project = -
-[submodule "qtqa"]
-	depends = qtbase
-	path = qtqa
-	url = https://code.qt.io/cgit/qt/qtqa.git
-	branch = master
-	status = essential
-	priority = 50
 [submodule "qtlocation"]
 	depends = qtbase
 	recommends = qtdeclarative qtquickcontrols qtquickcontrols2 qtserialport
@@ -321,3 +314,6 @@
 	path = qtbase
 	url = https://github.com/knjazs/qtbase_5.14.2.git
 	status = essential
+[submodule "qtqa"]
+	path = qtqa
+	url = https://github.com/knjazs/qtqa_5.14.2.git
